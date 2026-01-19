@@ -1,0 +1,147 @@
+*{
+  font-family: 'Oswald', sans-serif;
+  box-sizing: border-box;
+
+}
+body{
+  height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 120px 1fr 60px;
+  grid-auto-columns: 1fr;
+  grid-template-areas: 
+      "cabecalho"
+      "principal"
+      "rodape";}
+
+
+.cabecalho{
+  grid-area: cabecalho;
+  background-color: #0d6efd;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+box-shadow: 2px 4px 5px 5px rgba(228, 228, 228, 0.52);
+-webkit-box-shadow: 2px 4px 5px 5px rgba(196, 198, 199, 0.52);
+-moz-box-shadow: 2px 4px 5px 5px rgba(155, 156, 157, 0.52);
+
+z-index: 1;
+}
+.cabecalho>h1{
+  margin: 0;
+  font-weight: 300;
+  font-size: 2.8rem;
+
+}
+.canbecalho>h2{
+  margin: 0;
+  font-weight: 190;
+  font-size: 1.8rem;
+}
+
+.principal{
+  grid-area: principal;
+  height: calc(100vh - 180px);
+  background-color: rgb(62, 95, 124);
+  padding: 20px;
+}
+.rodape{
+  grid-area: rodape;
+  background-color: #595a5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0px 20px;
+  color: whitesmoke;
+  font-weight: 200;
+}
+.conteudo{
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  background-color: rgba(196, 198, 199, 0.52);
+  color: whitesmoke;
+  font-size: 1.4rem;
+  padding: 15px;
+  line-height: 2rem;  
+  box-shadow: 0px 0px 25px 0px rgba(157, 167, 189, 0.998);
+  border-radius: 5px;
+}
+
+.modulos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.modulo{
+  background-color: #3f84af;
+  flex-basis: 30%;
+  padding: 8px;
+  border-radius: 8px;
+}
+.modulo >h3{
+  background-color: #595a5b;
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-align: center;
+  border-radius: 8px;
+}
+.modulo ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0px;
+}
+.modulo > ul>li{
+  
+  font-size: 1.04rem;
+  cursor: pointer;
+
+}
+.modulo > ul>li>a{
+  text-decoration: none;
+  display: flex;
+  color: whitesmoke;
+  padding: 8px;
+  margin-top: 2px;
+}
+
+.modulo > ul>li:hover{
+  background-color: #595a5b;
+
+}
+.modulo.orange { border: 2px solid #ff8800 ;}
+.modulo.orange >h3 {background-color: #ff8800 ;}
+
+.modulo.green { border: 2px solid #266526 ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+.modulo.green >h3 {background-color: #266526 ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+
+.modulo.gray { border: 2px solid gray ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+.modulo.gray >h3 {background-color: gray ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+
+.modulo.red { border: 2px solid red ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+.modulo.red >h3 {background-color: red ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+
+.modulo.purple { border: 2px solid purple ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
+.modulo.purple >h3 {background-color: purple ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+
+.modulo.pink { border: 2px solid pink ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+.modulo.pink >h3 {background-color: pink ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+
+.modulo.black { border: 2px solid black ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+.modulo.black >h3 {background-color: black ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+
+  .modulo.blue { border: 2px solid blue ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+.modulo.blue >h3 {background-color: blue ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+
+  .modulo.yellow { border: 2px solid yellow ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+.modulo.yellow >h3 {background-color: yellow ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+
+  .modulo.white { border: 2px solid rgb(214, 104, 104) ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75)}
+  .modulo.white >h3 {background-color: rgb(209, 99, 99) ; box-shadow: 0px 0px 5px 0px rgba(19, 13, 13, 0.75);}
