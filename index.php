@@ -34,8 +34,8 @@
           <ul>
             <li><a href="exercicio.php?dir=tipos&file=tipos">Tipos INT</a></li>
             <li><a href="exercicio.php?dir=tipos&file=float">Tipos FLOAT</a></li>
-            <li><a href="exercicio.php?dir=tipos&file=operacao">Operação</a></li>
-            <li><a href="exercicio.php?dir=tipos&file=desafio">Desafio</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=string">Tipos String</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=desafio_string">Desafio String</a></li>
             <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
             <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
             
