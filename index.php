@@ -21,7 +21,7 @@
         <div class="modulo white">
           <h3>Módulo 01</h3>
           <ul>
-            <li><a href="exercicio.php">Exercicio</a></li>
+            <li><a href="exercicio.php?dir=basico&file=ola">Exercicio</a></li>
             <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
             <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
             <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
@@ -30,11 +30,12 @@
           </ul>
         </div>
         <div class="modulo purple">
-          <h3>Módulo 02</h3>
+          <h3>Módulo Tipos</h3>
           <ul>
-            <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
-            <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
-            <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=tipos">Tipos INT</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=float">Tipos FLOAT</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=operacao">Operação</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=desafio">Desafio</a></li>
             <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
             <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
             
