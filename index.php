@@ -36,19 +36,19 @@
             <li><a href="exercicio.php?dir=tipos&file=float">Tipos FLOAT</a></li>
             <li><a href="exercicio.php?dir=tipos&file=string">Tipos String</a></li>
             <li><a href="exercicio.php?dir=tipos&file=desafio_string">Desafio String</a></li>
-            <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
-            <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=booleano_type">Booleano</a></li>
+            <li><a href="exercicio.php?dir=tipos&file=conversao">Conversao</a></li>
             
           </ul>
         </div>
         <div class="modulo yellow">
           <h3>Módulo 03</h3>
           <ul>
-            <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
-            <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
-            <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
-            <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
-            <li><a href="exercicio.php?dir=basico&file=desafio">Desafio</a></li>
+            <li><a href="exercicio.php?dir=variaveis&file=basico">Variáveis</a></li>
+            <li><a href="exercicio.php?dir=variaveis&file=desafio_equacao">Desafio Equação</a></li>
+            <li><a href="exercicio.php?dir=variaveis&file=atribuicao">Atribuição</a></li>
+            <li><a href="exercicio.php?dir=variaveis&file=interpolacao">Interpolação</a></li>
+            <li><a href="exercicio.php?dir=variaveis&file=variaveis_variaveis">Variáveis Variáveis</a></li>
             
           </ul>
         </div>
